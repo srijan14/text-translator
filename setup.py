@@ -5,7 +5,7 @@ with open("./requirements.txt") as f:
 f.close()
 
 setup(
-  name = 'ttranslator',
+  name='ttranslator',
   packages = ['ttranslator'],
   version = '0.1',
   license='Apache',
@@ -15,5 +15,5 @@ setup(
   url = 'https://github.com/srijan14/text-translation',
   download_url = 'https://github.com/srijan14/text-translation/archive/v_0.1.tar.gz',
   keywords = ['TEXT TRANSLATION', 'MACHINE TRANSLATION'],
-  install_requires = requirements
+  install_requires=requirements
 )
