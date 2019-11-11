@@ -5,7 +5,7 @@ with open("./requirements.txt") as f:
 f.close()
 
 setup(
-  name = 'translator',
+  name = 'ttranslator',
   packages = ['ttranslator'],
   version = '0.1',
   license='Apache',
