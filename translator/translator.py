@@ -1,4 +1,5 @@
 import os
+
 import onmt.opts as opts
 from onmt.translate.translator import build_translator
 from onmt.utils.parse import ArgumentParser
@@ -33,8 +34,9 @@ class Translator:
             print("Please do a load_model with the model path first, before running the translate")
 
         response = self.model.translate(src=[inp],batch_size=1)
+        print("Translated Text is")
         for val in response:
-            print("Translated Text is  :  {} ".format(val))
+            print("{}".format(val))
 
 
 if __name__=="__main__":
