@@ -4,15 +4,14 @@ import os
 import sys
 from shutil import rmtree
 
-NAME = 'ttranslator'
+NAME = 'text-translator'
 DESCRIPTION = 'Multilingual text translation'
 URL = 'https://github.com/srijan14/text-translation'
 EMAIL = 'srijan.sharma.1404@gmail.com'
 AUTHOR = 'Srijan Sharma'
 LICENCE = 'Apache'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.0.1'
-
+VERSION = '1.0'
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -81,7 +80,7 @@ setup(
   keywords = ['TEXT TRANSLATION', 'MACHINE TRANSLATION'],
   install_requires=['certifi==2019.9.11', 'chardet==3.0.4', 'ConfigArgParse==0.15.1', 'idna==2.8',
                     'numpy==1.17.4', 'requests==2.22.0', 'sentencepiece==0.1.83', 'six==1.13.0',
-                    'torch==1.3.1', 'torchtext==0.4.0', 'tqdm==4.38.0', 'urllib3==1.25.7'],
+                    'torch==1.3.1', 'torchtext==0.4.0', 'tqdm==4.38.0', 'urllib3==1.25.7', 'onmt==1.0.0'],
   classifiers=[
     'Development Status :: 3 - Alpha',
     'Intended Audience :: Developers',  # Define that your audience are developers
