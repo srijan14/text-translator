@@ -37,14 +37,14 @@ pip install text-translator
 3. Prediction
 
     ```
-    translator.translate("What is your name")  
-    आपका नाम क्या है
+    translator.translate("What is your name?")  
+    आपका नाम क्या है?
     ```
     
     ```
-    translator.translate(["What is your name","What is your age"])
-    आपका नाम क्या है
-    आपकी उम्र क्या है
+    translator.translate(["What is your name?","What is your age?"])
+    आपका नाम क्या है?
+    आपकी उम्र क्या है?
     ```
 
 ## [Pretrained Models](https://github.com/srijan14/Machine-Translation-Models-And-Data)
