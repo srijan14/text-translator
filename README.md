@@ -51,7 +51,7 @@ pip install text-translator
 
 ## Authors
 
-* [**Srijan Sharma**] (https://github.com/srijan14)
+* [**Srijan Sharma**](https://github.com/srijan14)
 
 ## License
 
