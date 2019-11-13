@@ -1,4 +1,6 @@
+*egg-info/
 model/
+dist/
 .idea/
 *.pyc
 __pycache__/

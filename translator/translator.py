@@ -32,13 +32,10 @@ class Translator:
         if self.model is None:
             print("Please do a load_model with the model path first, before running the translate")
 
-        response = self.model.translate(src=[inp],batch_size=1)
-        print("Translated Text is")
+        if isinstance(inp,list):
+            response = self.model.translate(src=inp,batch_size=8)
+        else:
+            response = self.model.translate(src=[inp], batch_size=1)
+
         for val in response:
             print("{}".format(val))
-
-
-if __name__=="__main__":
-    temp = Translator()
-    temp.load_model(path="./model/model.pt")
-    temp.translate("What is your name?")

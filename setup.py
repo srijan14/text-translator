@@ -11,12 +11,12 @@ EMAIL = 'srijan.sharma.1404@gmail.com'
 AUTHOR = 'Srijan Sharma'
 LICENCE = 'Apache'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.1'
+VERSION = '1.3'
 
 here = os.path.abspath(os.path.dirname(__file__))
 
 try:
-    with io.open(os.path.join(here, '../README.md'), encoding='utf-8') as f:
+    with io.open(os.path.join(here, 'README.md'), encoding='utf-8') as f:
         long_description = '\n' + f.read()
 except FileNotFoundError:
     long_description = DESCRIPTION
