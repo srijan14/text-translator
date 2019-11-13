@@ -1,1 +1,1 @@
-from .translator import Translator
+from .onmt.translator import Translator
