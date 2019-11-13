@@ -11,7 +11,8 @@ EMAIL = 'srijan.sharma.1404@gmail.com'
 AUTHOR = 'Srijan Sharma'
 LICENCE = 'Apache'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.3'
+VERSION = '1.4'
+CONTENT_TYPE = "text/markdown"
 
 here = os.path.abspath(os.path.dirname(__file__))
 
@@ -70,15 +71,15 @@ class UploadCommand(Command):
 setup(
   name=NAME,
   packages=find_packages(exclude=("tests",)),
+  long_description_content_type=CONTENT_TYPE,
   version =VERSION,
-  url=URL
+  url=URL,
   license=LICENCE,
   description = DESCRIPTION,
   long_description = long_description,
   author = AUTHOR,
   author_email = EMAIL,
   requires_python = REQUIRES_PYTHON,
-  url = URL,
   keywords = ['TEXT TRANSLATION', 'MACHINE TRANSLATION'],
   install_requires=['certifi==2019.9.11', 'chardet==3.0.4', 'ConfigArgParse==0.15.1', 'idna==2.8',
                     'numpy==1.17.4', 'requests==2.22.0', 'sentencepiece==0.1.83', 'six==1.13.0',
