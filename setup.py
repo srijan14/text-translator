@@ -71,8 +71,10 @@ setup(
   name=NAME,
   packages=find_packages(exclude=("tests",)),
   version =VERSION,
+  url=URL
   license=LICENCE,
   description = DESCRIPTION,
+  long_description = long_description,
   author = AUTHOR,
   author_email = EMAIL,
   requires_python = REQUIRES_PYTHON,
