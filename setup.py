@@ -11,7 +11,7 @@ EMAIL = 'srijan.sharma.1404@gmail.com'
 AUTHOR = 'Srijan Sharma'
 LICENCE = 'Apache'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '1.4'
+VERSION = '1.5'
 CONTENT_TYPE = "text/markdown"
 
 here = os.path.abspath(os.path.dirname(__file__))

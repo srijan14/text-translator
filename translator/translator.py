@@ -23,7 +23,7 @@ class Translator:
         self.model = build_translator(opt, report_score=True)
         return
 
-    def translate(self,inp=None):
+    def translate(self,inp=None,verbose=False):
 
         if inp is None:
             print("None type value provided as input")
@@ -37,5 +37,8 @@ class Translator:
         else:
             response = self.model.translate(src=[inp], batch_size=1)
 
-        for val in response:
-            print("{}".format(val))
+        if verbose:
+            for val in response:
+                print("{}".format(val))
+
+        return response
