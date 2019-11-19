@@ -35,9 +35,14 @@ pip install text-translator
     ```
     
 3. Prediction
-
+    
     ```
-    translator.translate("What is your name?")  
+    
+    # translator.translate(text,verbose=True)
+    # Return : list containing translated text
+    # prints results on console if verbose set to True
+    
+    translator.translate("What is your name?",verbose=True)
     आपका नाम क्या है?
     ```
     
