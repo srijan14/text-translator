@@ -81,7 +81,7 @@ setup(
   author_email = EMAIL,
   requires_python = REQUIRES_PYTHON,
   keywords = ['TEXT TRANSLATION', 'MACHINE TRANSLATION'],
-  install_requires=['certifi==2019.9.11', 'chardet==3.0.4', 'ConfigArgParse==0.15.1', 'idna==2.8',
+  install_requires=['certifi==2022.12.7', 'chardet==3.0.4', 'ConfigArgParse==0.15.1', 'idna==2.8',
                     'numpy==1.17.4', 'requests==2.22.0', 'sentencepiece==0.1.83', 'six==1.13.0',
                     'torch==1.3.1', 'torchtext==0.4.0', 'tqdm==4.38.0', 'urllib3==1.25.7', 'onmt==1.0.0'],
   classifiers=[
